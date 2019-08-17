@@ -5,7 +5,7 @@
   "main": "dist/js-lib-template.web.js",
   "scripts": {
     "test": "jest --coverage",
-    "build": "webpack",
+    "build": "shard build",
     "version": "echo $npm_package_version"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "@shards/shard": "^1.0.1",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
